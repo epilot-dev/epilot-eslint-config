@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/epilot-dev/epilot-eslint-config/compare/v1.2.13...v2.0.1) (2022-06-22)
+
 ### [1.2.13](https://github.com/epilot-dev/epilot-eslint-config/compare/v1.2.12...v1.2.13) (2022-06-22)
 
 ### 1.2.12 (2022-06-02)
