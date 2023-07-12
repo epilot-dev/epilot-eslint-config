@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/epilot-dev/epilot-eslint-config/compare/v2.0.1...v2.1.0) (2023-07-12)
+
+
+### Features
+
+* upgrading @typescript-eslint/parser and @typescript-eslint/eslint-plugin ([35d463d](https://github.com/epilot-dev/epilot-eslint-config/commit/35d463da0df8f689de9dd270ac7a5a83ab10a694))
+
 ### [2.0.1](https://github.com/epilot-dev/epilot-eslint-config/compare/v1.2.13...v2.0.1) (2022-06-22)
 
 ### [1.2.13](https://github.com/epilot-dev/epilot-eslint-config/compare/v1.2.12...v1.2.13) (2022-06-22)
