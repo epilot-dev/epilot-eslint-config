@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://github.com/epilot-dev/epilot-eslint-config/compare/v3.0.1...v3.0.2) (2024-08-06)
+
+
+### Bug Fixes
+
+* package json ([1924878](https://github.com/epilot-dev/epilot-eslint-config/commit/19248781e7396668b18c90e4c027d60553cce16a))
+
 ### [3.0.1](https://github.com/epilot-dev/epilot-eslint-config/compare/v2.1.1...v3.0.1) (2024-08-06)
 
 
