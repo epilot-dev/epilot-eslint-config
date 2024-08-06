@@ -12,10 +12,10 @@
     "postrelease": "git push && git push --tags"
   },
   "files": [
-    "index.js",
-    ".eslintrc.js"
+    "index.mjs",
+    "eslint.config.mjs"
   ],
-  "main": "index.js",
+  "main": "index.mjs",
   "repository": "https://github.com/epilot-dev/epilot-eslint-config",
   "homepage": "https://github.com/epilot-dev/epilot-eslint-config",
   "author": {
@@ -34,16 +34,14 @@
     "eslint": ">= 9.0.0",
     "typescript": ">= 5.0.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "8.0.1",
     "@typescript-eslint/parser": "8.0.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-prettier": "5.2.1",
-    "prettier": "3.3.3"
-  },
-  "devDependencies": {
+    "prettier": "3.3.3",
     "@eslint/compat": "^1.1.1",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.8.0",
