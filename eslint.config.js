@@ -1,24 +1,17 @@
 module.exports = {
-  env: {
-    es6: true,
-    node: true
+  plugins: {
+    '@typescript-eslint': require('@typescript-eslint/eslint-plugin'),
+    import: require('eslint-plugin-import'),
+    prettier: require('eslint-plugin-prettier')
   },
-  extends: [
-    'plugin:import/errors',
-    'plugin:import/warnings',
-    'plugin:import/typescript',
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
-  ],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
+  languageOptions: {
+    parser: require('@typescript-eslint/parser'),
     ecmaVersion: 2018,
-    sourceType: 'module'
-  },
-  plugins: ['import', '@typescript-eslint', 'prettier'],
-  globals: {
-    process: true
+    sourceType: 'module',
+    globals: {
+      process: 'readonly',
+      Promise: 'readonly'
+    }
   },
   rules: {
     'import/order': [
@@ -33,13 +26,10 @@ module.exports = {
           'index'
         ],
         'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true
-        }
+        alphabetize: { order: 'asc', caseInsensitive: true }
       }
     ],
-    'import/default': 0,
+    'import/default': 'off',
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: '*', next: 'return' }
